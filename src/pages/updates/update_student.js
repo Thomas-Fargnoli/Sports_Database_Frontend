@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Update_Student = () => {
+const UpdateStudent = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -90,4 +90,4 @@ const Update_Student = () => {
   );
 };
   
-export default Update_Student 
+export default UpdateStudent 

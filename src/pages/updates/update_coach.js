@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Update_Coach = () => {
+const UpdateCoach = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -90,4 +90,4 @@ const Update_Coach = () => {
   );
 };
   
-export default Update_Coach;
+export default UpdateCoach;

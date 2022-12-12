@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Remove_Student = () => {
+const RemoveStudent = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -90,4 +90,4 @@ const Remove_Student = () => {
   );
 };
   
-export default Remove_Student 
+export default RemoveStudent 

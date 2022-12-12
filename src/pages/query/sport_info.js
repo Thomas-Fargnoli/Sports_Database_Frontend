@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Sport_Info = () => {
+const SportInfo = () => {
     const [Sport, setSport] = useState("");
     const [sport_info_list, setSportInfoList] = useState([]);
     
@@ -63,4 +63,4 @@ const Sport_Info = () => {
   );
 };
   
-export default Sport_Info;
+export default SportInfo;

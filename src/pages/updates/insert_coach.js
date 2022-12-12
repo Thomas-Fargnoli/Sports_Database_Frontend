@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Insert_Coach = () => {
+const InsertCoach = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -90,4 +90,4 @@ const Insert_Coach = () => {
   );
 };
   
-export default Insert_Coach;
+export default InsertCoach;

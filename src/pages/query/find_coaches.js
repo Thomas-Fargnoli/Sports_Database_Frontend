@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Find_Coach = () => {
+const FindCoach = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -86,4 +86,4 @@ const Find_Coach = () => {
   );
 };
   
-export default Find_Coach;
+export default FindCoach;

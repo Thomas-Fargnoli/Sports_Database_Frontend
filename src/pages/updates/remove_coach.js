@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Remove_Coach = () => {
+const RemoveCoach = () => {
 
   const [firstName, set_f_Name] = useState("");
   const [lastName, set_l_Name] = useState("");
@@ -90,4 +90,4 @@ return (
 );
 };
   
-export default Remove_Coach;
+export default RemoveCoach;

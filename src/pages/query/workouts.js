@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Find_Workout = () => {
+const FindWorkout = () => {
 
     const [workout, Set_Workout_Name] = useState("");
     const [Sport, setSport] = useState("");
@@ -78,4 +78,4 @@ const Find_Workout = () => {
   );
 };
   
-export default Find_Workout;
+export default FindWorkout;

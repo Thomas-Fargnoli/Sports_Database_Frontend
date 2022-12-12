@@ -3,7 +3,7 @@ import {useState} from "react";
 import '../pages.css';
 import axios from 'axios'
 
-const Find_Student = () => {
+const FindStudent = () => {
 
     const [firstName, set_f_Name] = useState("");
     const [lastName, set_l_Name] = useState("");
@@ -102,4 +102,4 @@ const Find_Student = () => {
   );
 };
   
-export default Find_Student;
+export default FindStudent;
