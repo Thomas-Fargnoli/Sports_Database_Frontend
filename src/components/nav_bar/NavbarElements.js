@@ -5,11 +5,10 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  justify-content: center;
   z-index: 10;
   /* Third Nav */
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
 `;
 
 export const NavLink = styled(Link)`
@@ -17,6 +16,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin: auto;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
@@ -28,6 +28,7 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
+  
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -45,6 +46,7 @@ export const NavMenu = styled.div`
   margin-right: -24px;
   width: 1400px;
   border: 2px solid white;
+    margin: auto;
   padding: 2px;
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
@@ -56,6 +58,7 @@ export const WebsiteTitle = styled.div`
   margin: 10px;
   font-size: 20px;
   color: white;
+  padding: 0.03rem calc((100vw - 1425px) / 2);
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
     display: none;
