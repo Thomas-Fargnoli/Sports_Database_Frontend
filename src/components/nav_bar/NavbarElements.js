@@ -52,7 +52,7 @@ export const NavMenu = styled.div`
   }
 `;
 
-export const Website_Title = styled.div`
+export const WebsiteTitle = styled.div`
   margin: 10px;
   font-size: 20px;
   color: white;

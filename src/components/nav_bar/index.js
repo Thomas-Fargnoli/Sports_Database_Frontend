@@ -10,7 +10,7 @@ import {
 const Navbar = () => {
   return (
       <Nav>
-        <Website_Title>URI Sports Database</Website_Title>
+        <WebsiteTitle>URI Sports Database</WebsiteTitle>
         <Bars />
         <NavMenu>
           <NavLink to="/find_students" activeStyle>
