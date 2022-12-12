@@ -42,24 +42,24 @@ const InsertStudent = () => {
         <tbody>
           <tr>
             <td><input type = "text" onChange ={(event) => {
-        set_f_Name(event.target.value)}} required
+        set_f_Name(event.target.value)}} 
         /></td>
             <td><input type = "text" onChange ={(event) => {
-        set_l_Name(event.target.value)}} required
+        set_l_Name(event.target.value)}} 
         /></td>
             <td><input type = "text" onChange ={(event) => {
-        setSport(event.target.value)}} required
+        setSport(event.target.value)}} 
         /></td>
             <td><input type = "text" onChange ={(event) => {
-        setID(event.target.value)}} required
+        setID(event.target.value)}} 
         /></td>
             <td><input type = "text" onChange ={(event) => {
-        setCurrentCredits(event.target.value)}} required
+        setCurrentCredits(event.target.value)}} 
         /></td>
           </tr>
         </tbody>
       </table>
-      <button onClick = {display_student}>update information</button>
+      <button onClick = {display_student}>insert information</button>
       <div>
       {student_list.map((val, key) => {
         return <div className = "list_people">

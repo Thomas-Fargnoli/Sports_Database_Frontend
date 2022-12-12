@@ -59,7 +59,7 @@ const RemoveStudent = () => {
           </tr>
         </tbody>
       </table>
-      <button onClick = {display_student}>update information</button>
+      <button onClick = {display_student}>remove information</button>
       <div>
       {student_list.map((val, key) => {
         return <div className = "list_people">

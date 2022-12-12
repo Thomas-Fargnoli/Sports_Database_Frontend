@@ -59,7 +59,7 @@ return (
           </tr>
         </tbody>
       </table>
-    <button onClick = {display_coach}>insert information</button>
+    <button onClick = {display_coach}>remove information</button>
     <div>
     {coach_list.map((val, key) => {
       return <div className = "list_people">
